@@ -1,4 +1,10 @@
 {
+    "permissions": {
+    "allow": [
+      "Bash(GIT_LFS_SKIP_SMUDGE=1 git clone --depth 1 https://github.com/klkkh0227/phil:*)",
+      "Bash(python3 core/score.py)"
+    ]
+  },
   "hooks": {
     "SessionStart": [
       {
