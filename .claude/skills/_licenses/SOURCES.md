@@ -9,5 +9,8 @@
 | UI UX Pro Max | https://github.com/nextlevelbuilder/ui-ux-pro-max-skill | 477bcb2 | MIT (`ui-ux-pro-max-skill.LICENSE`) | 7 |
 | Remotion | https://github.com/remotion-dev/skills | 32b241b | 저장소에 LICENSE 파일 없음 | 12 |
 | Context Engineering | https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering | 58b55a8 | MIT (`context-engineering.LICENSE`) | 18 |
+| geo-seo-claude | https://github.com/zubair-trabzada/geo-seo-claude | 989cae0 | MIT (`geo-seo-claude.LICENSE`) | 15 + 에이전트 5 |
+
+geo-seo-claude는 `~/.claude/...` 경로를 프로젝트 기준 `.claude/...`로 바꿨고, 홈 폴더 설치본을 갱신하는 `geo-update`는 뺐습니다. 스크립트에는 `beautifulsoup4`, `requests`, `lxml`, `validators`가 필요합니다.
 
 Remotion 라이브러리 자체는 개인·직원 3명 이하 영리 조직·비영리에 무료이고, 그 밖의 영리 조직은 회사 라이선스가 필요합니다.
