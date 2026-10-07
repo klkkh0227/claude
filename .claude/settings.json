@@ -5,6 +5,24 @@
       "Bash(python3 core/score.py)"
     ]
   },
+  "extraKnownMarketplaces": {
+    "prompts.chat": {
+      "source": {
+        "source": "github",
+        "repo": "f/prompts.chat"
+      }
+    },
+    "anthropic-agent-skills": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/skills"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "prompts.chat@prompts.chat": true,
+    "example-skills@anthropic-agent-skills": true
+  },
   "hooks": {
     "SessionStart": [
       {
